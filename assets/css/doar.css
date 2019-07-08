@@ -18,6 +18,12 @@ nav ul li a:hover {
   text-shadow: 0 2px 5px black;
 }
 
+main ul {
+  list-style-type: none;
+}
+main ul h3 {
+  color: #FC461F;
+}
 main section#donate {
   width: 70%;
   float: left;
@@ -88,6 +94,10 @@ footer {
 }
 
 @media (max-width: 400px) {
+  main ul {
+    width: 80%;
+    margin: 20px 10%;
+  }
   main section h1, main section h5 {
     text-align: center;
   }

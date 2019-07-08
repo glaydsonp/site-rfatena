@@ -22,3 +22,11 @@ $("#pacoteQuatro").click(function () {
     var url4 = "https://www.mercadopago.com.br/checkout/v1/redirect?preference-id=374288851-608c9f75-5e41-42cb-bdf1-bad0e80127cb";
     document.location.href = url4;
 });
+$("#download").click(function () {
+    var url5 = "http://www.mediafire.com/file/9db2dbmacb62fb6/RF_Atena.rar/file ";
+    document.location.href = url5;
+});
+$("#registro").click(function () {
+    var url6 = "https://newwoods.gamecp.net/register.php";
+    document.location.href = url6;
+});
